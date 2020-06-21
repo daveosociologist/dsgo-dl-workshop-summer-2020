@@ -9,7 +9,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?id=1GFbrDbpXSj-nmuMXoRe6KMSFm3niuiEM'
+# export_file_url = 'https://drive.google.com/uc?id=1GFbrDbpXSj-nmuMXoRe6KMSFm3niuiEM'
+export_file_url = 'https://drive.google.com/uc?id=1Ubr-fb4INlXkBTPrVc5PcY-fJ4Bkhq90'
+# https://drive.google.com/file/d/1Ubr-fb4INlXkBTPrVc5PcY-fJ4Bkhq90/view?usp=sharing
 export_file_name = 'bbc-classifier.pkl'
 
 classes = ['ball', 'brick', 'cylinder']
